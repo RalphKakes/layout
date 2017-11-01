@@ -1,0 +1,168 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#text{
+    width: 370px;
+}
+body{
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+}
+}
+header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    font-family: verdana;
+}
+article{
+    background-color: white;
+    width: 48%;
+    margin-bottom: 20px;
+    order: 1;
+    padding: 0 0 10px 0;
+}
+article:nth-child(3){
+    order: 1;
+}
+div.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    width:100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: darkblue;
+}
+article img{
+    width: 100%;
+}
+main {
+    width: 100%;
+    min-height: 600px;
+    padding: 24px; 0 0 0 ;
+    margin-top: 0;
+    background-color: blue;
+}
+nav{
+    width:100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+}
+.RocketLeague{
+    width: 48%
+}
+.artikel1{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+    width: 35%;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    order: 1;
+    overflow: hidden;
+}
+.artikel2{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+    width: 35%;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    order: 1;
+    overflow: hidden;
+}
+.artikel3{
+   font-size: 30px;
+    padding: 5px;
+    color: black;
+    width: 35%;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    order: 1;
+    overflow: hidden;
+}
+.artikel4{
+   font-size: 30px;
+    padding: 5px;
+    color: black;
+    width: 35%;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    order: 1;
+    overflow: hidden;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+div.ads{
+    display: row;
+    width: 150px;
+    height: 100px;
+    margin-top: 150px;
+    float: left;
+}
+.reclame1{
+    width: 400px;
+    height: 300px;
+}
+
+.reclame2{
+    width: 400px;
+    height: 300px;
+}
